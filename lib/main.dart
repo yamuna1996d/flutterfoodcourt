@@ -10,7 +10,7 @@ class Food extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title:'Food Court',
+      title:'Cook Book',
       theme:ThemeData(primarySwatch: Colors.lightGreen,
           accentColor: Colors.brown,
           canvasColor: Colors.brown,

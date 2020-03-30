@@ -17,7 +17,20 @@ class CategoryMealsScreen extends StatelessWidget {
     }).toList();
     return Scaffold(
       appBar: AppBar(
-        title: Text(categoryTitle),
+        title:  Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                  Image.asset(
+                 'assets/icons.jpeg',
+                  fit: BoxFit.contain,
+                  height: 60,
+                  width: 40,
+              ),
+              Container(
+                  padding: const EdgeInsets.all(8.0), child: Text(categoryTitle))
+            ],
+
+          ),
       ),
       body: ListView.builder(itemBuilder: (ctx,index){
         return MealItem(
