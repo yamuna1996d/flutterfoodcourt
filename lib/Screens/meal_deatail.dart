@@ -40,6 +40,7 @@ class MealDetailScreen extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
+            
             buildSectionTitle(context, 'Ingredients'),
             buildContainer(
               ListView.builder(

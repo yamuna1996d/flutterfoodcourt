@@ -84,7 +84,7 @@ class Categoryscreen extends StatelessWidget {
                   style: GoogleFonts.dancingScript(
                       color: Colors.brown,
                       fontStyle: FontStyle.italic,
-                      fontWeight: FontWeight.w800,
+                      fontWeight: FontWeight.w900,
                       fontSize: 25),
                 ),
               )
@@ -92,7 +92,7 @@ class Categoryscreen extends StatelessWidget {
           ),
         ),
         body: GridView.builder(
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(20),
           itemCount: categoryloaded.length,
           itemBuilder: (ctx, i) => CategoryItem(categoryloaded[i].id,
               categoryloaded[i].title, categoryloaded[i].imageurl),

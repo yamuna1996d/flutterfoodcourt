@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foodcourt/Screens/Category.dart';
 import 'package:foodcourt/Screens/category_screen.dart';
+import 'package:foodcourt/Screens/cookbookanim.dart';
 import 'package:foodcourt/Screens/meal_deatail.dart';
 
 void main() => runApp(Food());
@@ -13,7 +13,6 @@ class Food extends StatelessWidget {
       title:'Cook Book',
       theme:ThemeData(primarySwatch: Colors.lightGreen,
           accentColor: Colors.brown,
-          canvasColor: Colors.brown,
           fontFamily: 'Raleway',
           textTheme: ThemeData.light().textTheme.copyWith(
               body1:TextStyle(color: Color.fromRGBO(20, 51, 51, 1)),
@@ -25,7 +24,7 @@ class Food extends StatelessWidget {
               )
           )
       ),
-      home:Categoryscreen() ,
+      home:AnimatedCB() ,
       routes: {
         '/category-meals':(ctx)=>CategoryMealsScreen(),
         '/meal_detail':(ctx)=>MealDetailScreen(),

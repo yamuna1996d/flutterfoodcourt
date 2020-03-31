@@ -23,7 +23,10 @@ class CategoryItem extends StatelessWidget {
       GridTile(
         child:GestureDetector(
           onTap: ()=>selectCategory(context),
-            child: Image.network(imageurl,fit: BoxFit.cover,)),
+            child:
+             Hero(
+               tag: id,
+               child: Image.network(imageurl,fit: BoxFit.cover,))),
       footer: GridTileBar(
         backgroundColor: Colors.black54,
         title: Text(
