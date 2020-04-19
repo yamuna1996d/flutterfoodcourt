@@ -44,7 +44,7 @@ class _AnimatedCBState extends State<AnimatedCB>
       children: <Widget>[
         new Container(
           decoration: new BoxDecoration(
-            image: new DecorationImage(image: new AssetImage("assets/back.png"), fit: BoxFit.cover,),
+            image: new DecorationImage(image: new AssetImage("assets/ba.png"), fit: BoxFit.cover,),
           ),
         ),
       Center(
@@ -52,7 +52,7 @@ class _AnimatedCBState extends State<AnimatedCB>
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              child: Image.asset("assets/icons.jpeg"),
+              child: Image.asset("assets/cook.png"),
             ),
             Padding(padding: EdgeInsets.only(top: 20.0)),
             Text(

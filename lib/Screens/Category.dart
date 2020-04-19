@@ -9,7 +9,7 @@ class Categoryscreen extends StatelessWidget {
         id: 'c1',
         title: 'Italian',
         imageurl:
-            'https://cashkaro.com/blog/wp-content/uploads/sites/5/2019/12/Italian-Food.jpg'),
+            'https://www.besthotelsbooking.in/wp-content/uploads/2019/07/68794608.jpg'),
     Category(
         id: 'c2',
         title: 'Chinese',
@@ -51,18 +51,7 @@ class Categoryscreen extends StatelessWidget {
       imageurl:
           'https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2019/06/bbq-chicken-wrap-744x900.jpg',
     ),
-    Category(
-      id: 'c9',
-      title: 'Indonesian',
-      imageurl:
-          'https://baliandbeyond.co.id/gallery/teaser/8b9a0049f55cc89ddd638e95963b746a.jpg',
-    ),
-    Category(
-      id: 'c10',
-      title: 'Cakes',
-      imageurl:
-          'https://mygoodnesskitchen.com/wp-content/uploads/2017/06/Beetroot-and-Chocolate-Cupcakes-2954-683x1024.jpg.webp',
-    ),
+    
   ];
   @override
   Widget build(BuildContext context) {
