@@ -11,11 +11,14 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+    vedioUrl:'assets/Samajav.mp4',
     duration: 20,
     ingredients: [
-      '4 Tomatoes',
+      '5 Tomatoes puree or liquidized',
       '1 Tablespoon of Olive Oil',
+      'Garlic'
       '1 Onion',
+      'Oregano'
       '250g Spaghetti',
       'Spices',
       'Cheese (optional)'
@@ -24,8 +27,9 @@ const DUMMY_MEALS = const [
       'Cut the tomatoes and the onion into small pieces.',
       'Boil some water - add salt to it once it boils.',
       'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
+      'In the meantime, heaten up some olive oil and add the garlic,Oregano .',
+      'When the garlic color changed,take it from it and add chopped onion '
+      'After 2 minutes, add the crushed tomato, salt, pepper and your other spices.',
       'The sauce will be done once the spaghetti are.',
       'Feel free to add some cheese on top of the finished dish.'
     ],

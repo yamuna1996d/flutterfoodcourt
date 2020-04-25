@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:foodcourt/Screens/chiewe.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../dummy_data.dart';
+import 'package:chewie/chewie.dart';
+import '../Screens/chiewe.dart';
+import 'package:video_player/video_player.dart';
 
 class MealDetailScreen extends StatelessWidget {
   static const routeName = '/meal_detail';
@@ -28,6 +32,19 @@ class MealDetailScreen extends StatelessWidget {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       child: child,
+    );
+  }
+
+  Widget videoContainer(Widget child) {
+    return Container(
+      height: 200,
+      width: 300,
+      decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(
+            color: Colors.blueGrey,
+          ),
+          borderRadius: BorderRadius.circular(20)),
     );
   }
 
@@ -84,6 +101,17 @@ class MealDetailScreen extends StatelessWidget {
               ]),
               itemCount: selectedMeal.steps.length,
             )),
+            buildSectionTitle(context, 'Video'),
+            Container(
+              child: RaisedButton(onPressed: (){
+                 Navigator.push(context,MaterialPageRoute(builder: (context) => 
+                 ChewieListItem(playerController:VideoPlayerController.asset(
+                   selectedMeal.vedioUrl,
+                 ) )),
+  );
+              },
+              child:Text("Video",style: TextStyle(color: Colors.black),)),
+            ),
           ],
         ),
       ),

@@ -17,6 +17,7 @@ class Meal{
   final List<String>categories;
   final String title;
   final String imageUrl;
+  final String vedioUrl;
   final List<String>ingredients;
   final List<String>steps;
   final int duration;
@@ -28,7 +29,7 @@ class Meal{
   final bool isVegetarian;
 
   const Meal({@required this.id,@required this.categories,@required this.title,
-    @required this.imageUrl,@required this.ingredients,@required this.steps,@required this.duration,
+    @required this.imageUrl,@required this.vedioUrl, @required this.ingredients,@required this.steps,@required this.duration,
     @required this.complexity,@required this.affordability,@required this.isGlutenFree,
     @required this.isLactoseFree,@required this.isVegan,@required this.isVegetarian});
 }
