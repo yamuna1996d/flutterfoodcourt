@@ -11,7 +11,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
-    vedioUrl:'assets/Samajav.mp4',
+    vedioUrl:'assets/smoked.mp4',
     duration: 20,
     ingredients: [
       '5 Tomatoes puree or liquidized',
@@ -48,6 +48,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+    vedioUrl: 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp44',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -142,6 +143,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+    vedioUrl: 'assets/spegatti.mp4',
     duration: 15,
     ingredients: [
       'Arugula',

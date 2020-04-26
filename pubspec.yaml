@@ -55,7 +55,7 @@ flutter:
     - assets/back.png
     - assets/cook.png
     - assets/ba.png
-    - assets/Samajav.mp4
+    - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
