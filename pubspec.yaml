@@ -24,6 +24,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   google_fonts: ^0.3.10
+  flutter_youtube: "^2.0.0"
+  youtube_player_flutter: 6.1.0+7
+  url_launcher: '5.4.0'
 
 dev_dependencies:
   flutter_test:
@@ -51,10 +54,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/icons.jpeg
-    - assets/back.png
-    - assets/cook.png
-    - assets/ba.png
     - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see

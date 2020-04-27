@@ -1,4 +1,4 @@
-
+import 'package:flutter_youtube/flutter_youtube.dart';
 import 'Models/meal.dart';
 const DUMMY_MEALS = const [
   Meal(
@@ -11,7 +11,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
-    vedioUrl:'assets/smoked.mp4',
+    vedioUrl:'https://video.fblr4-2.fna.fbcdn.net/v/t42.9040-2/10000000_2654012111499004_3717966898235703296_n.mp4?_nc_cat=103&_nc_sid=985c63&efg=eyJybHIiOjYwMSwicmxhIjoxNjExLCJ2ZW5jb2RlX3RhZyI6ImxlZ2FjeV9zZCJ9&_nc_ohc=thCC8FNTS9EAX9QIN7_&_nc_ht=video.fblr4-2.fna&oh=f9cb0d3e2099f5a3beb4210e3f16aaef&oe=5EA71264',
     duration: 20,
     ingredients: [
       '5 Tomatoes puree or liquidized',
@@ -48,7 +48,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
-    vedioUrl: 'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp44',
+    vedioUrl: 'https://video.fblr4-2.fna.fbcdn.net/v/t42.9040-2/95195799_214974556469397_8331220330618028032_n.mp4?_nc_cat=108&_nc_sid=985c63&efg=eyJybHIiOjM3MCwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoibGVnYWN5X3NkIn0%3D&_nc_ohc=KkBs3Kgxt40AX9_uJK0&_nc_ht=video.fblr4-2.fna&oh=4183c40dc767a8c1154bb5796ece206e&oe=5EA7117F',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -77,6 +77,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+    vedioUrl: '',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -108,6 +109,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Challenging,
     imageUrl:
     'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+    vedioUrl: '',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -143,7 +145,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
-    vedioUrl: 'assets/spegatti.mp4',
+    vedioUrl: 'https://video.fblr4-1.fna.fbcdn.net/v/t42.9040-2/94667362_229740181609397_747259343828680704_n.mp4?_nc_cat=101&_nc_sid=985c63&efg=eyJybHIiOjQxNCwicmxhIjo1NDMsInZlbmNvZGVfdGFnIjoibGVnYWN5X3NkIn0%3D&_nc_ohc=ZJARU8SfepUAX9CUjQ9&_nc_ht=video.fblr4-1.fna&oh=f1a2c332f2a4fa27bbf4c63f98ecbbff&oe=5EA711C9',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -178,6 +180,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Hard,
     imageUrl:
     'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+    vedioUrl: '',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -213,6 +216,7 @@ const DUMMY_MEALS = const [
     complexity: Complexity.Simple,
     imageUrl:
     'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+    vedioUrl: '',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',

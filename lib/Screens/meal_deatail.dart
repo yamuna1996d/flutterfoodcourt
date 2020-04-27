@@ -104,10 +104,12 @@ class MealDetailScreen extends StatelessWidget {
             buildSectionTitle(context, 'Video'),
             Container(
               child: RaisedButton(onPressed: (){
+                print("Link is"+selectedMeal.vedioUrl);
                  Navigator.push(context,MaterialPageRoute(builder: (context) => 
-                 ChewieListItem(playerController:VideoPlayerController.asset(
+                 ChewieListItem(playerController:VideoPlayerController.network(
                    selectedMeal.vedioUrl,
-                 ) )),
+                 ),
+                  )),
   );
               },
               child:Text("Video",style: TextStyle(color: Colors.black),)),

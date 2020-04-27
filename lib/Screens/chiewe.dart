@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:chewie/chewie.dart';
+import '../Screens/meal_deatail.dart';
+
 import 'package:video_player/video_player.dart';
 
 class ChewieListItem extends StatefulWidget {
@@ -22,9 +24,11 @@ class _ChewieListItemState extends State<ChewieListItem> {
         autoInitialize: true,
         errorBuilder: (context, errormessage) {
           return Center(
-            child: Text(errormessage, style: TextStyle(color: Colors.white)),
+            child: Text(errormessage, style: TextStyle(color: Colors.white,fontSize:10 )),
           );
         });
+    
+        
   }
 
   @override
@@ -44,3 +48,4 @@ class _ChewieListItemState extends State<ChewieListItem> {
     _chewieController.dispose();
   }
 }
+
